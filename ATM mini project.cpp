@@ -106,9 +106,10 @@ int main()
 
 	system("cls");
 
-	// created User ( object )
+
 	atm user1;
-	// Set User Details ( into object )         ( Setting Default Data )
+	
+	//Here 1234567 is acc. no and 1111 is the default set password
 	user1.setData(1234567, "Vaibhav", 1111, 45000.90, "9087654321");
 
 
